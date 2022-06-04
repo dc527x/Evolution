@@ -1,0 +1,85 @@
+body {
+    background-color: #faddff;
+    color: #000;
+}
+
+.tooltip-arrow,
+.conf-option + .tooltip > .tooltip-inner {
+    background-color: #f00;
+}
+
+header {
+    color: #2E1114;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.custom-select {
+    display: inline-block;
+    width: 60%;
+    height: calc(2.25rem + 6px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.form-control {
+    width: 60%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+p.canvas2-text {
+    margin: 0 0 10px;
+    font-family: cursive;
+    font-size: large;
+}
+
+/*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: cursive;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}*/
+
+.picFrames {
+    padding-left: 30px;
+}
+
+.ui-slider {
+    -webkit-appearance: none;
+    background: #bac5ff;
+    border-radius: 32px;
+    height: 12px;
+    box-shadow: none;
+    margin-bottom: 20px;
+    position: relative;
+    width: 240px;
+}
+
+.ui-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+    background-color: #4f6e8d;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 18px;
+    margin-left: -9px;
+    top: -3px;
+    width: 18px;
+    z-index: 2;
+    -webkit-transition: background 0.25s;
+    transition: background 0.25s;
+    -webkit-backface-visibility: hidden;
+}
